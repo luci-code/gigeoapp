@@ -9916,5 +9916,80 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.button {
+  border: 0;
+  margin-left: 10px;
+  padding: 15px;
+  height: 50px;
+}
+.button__red {
+  background-color: #f14040;
+  color: white;
+  border: 0;
+}
+.button__blue {
+  background-color: #4583d4;
+  color: white;
+  margin-left: 10px;
+  border: 0;
+}
+
+.header__banner {
+  background-image: url(../img/image-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+.header__profile {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 0px;
+}
+.header__info {
+  display: flex;
+}
+.header__avatar {
+  background-image: url(../img/profile-image.png);
+  background-size: cover;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-left: 30px;
+}
+.header__details {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+.header__name {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.header__followers {
+  color: gray;
+}
+.header__actions {
+  display: flex;
+  justify-content: flex-end;
+  height: 80px;
+  margin-right: 10px;
+  align-items: flex-end;
+}
+
+.main__targ {
+  border: none;
+  border-radius: 0;
+}
+.main__text {
+  margin-left: 0;
+}
+.main__text2 {
+  color: grey;
+  margin-left: 0;
+}
 
 /*# sourceMappingURL=style.css.map */

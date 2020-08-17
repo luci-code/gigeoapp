@@ -1,0 +1,20 @@
+.button{
+    border:0;
+    margin-left: 10px;
+    padding: 15px;
+    height: 50px;
+ 
+&__red{
+    background-color: rgb(241, 64, 64); 
+    color: white;  
+    border:0;
+
+}
+&__blue{
+    background-color: rgb(69, 131, 212);
+    color: white; 
+    margin-left: 10px;
+    border:0; 
+}
+
+}
